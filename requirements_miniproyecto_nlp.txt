@@ -1,0 +1,11 @@
+datasets
+lightning
+torch
+torchmetrics
+tensorboard
+scikit-learn
+pandas
+numpy
+matplotlib
+wordcloud
+spacy
