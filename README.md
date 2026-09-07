@@ -1,59 +1,35 @@
 # NLP
 Repositorio Materia de NLP - MIAA
-Mini-proyecto NLP y LSTM — Detección de SMS Spam
+Mini-proyecto NLP y LSTM —  Cybersecurity Word2Vec Laboratory
 
-Mini-proyecto de clasificación de texto para Google Colab. El caso utiliza
-ucirvine/sms_spam y compara:
+Laboratorio NLP en Google Colab para comparar Word2Vec-CBOW, Word2Vec-Skip-Gram, FastText, BERT y Sentence-BERT con un corpus defensivo de NVD/CVE, CISA KEV, CWE y MITRE ATT&CK.
 
-TF-IDF + Regresión Logística.
+Incluye
 
-LSTM con embeddings aleatorios.
+EDA.
 
-BiLSTM + atención con embeddings aleatorios.
+Normalización técnica.
 
-BiLSTM + atención con embeddings preentrenados de spaCy.
+Word2Vec CBOW y Skip-Gram.
 
-#Contenido académico
+FastText y OOV.
 
-EDA textual.
+BERT contextual.
 
-Normalización orientada al dominio.
+Sentence-BERT.
 
-Split estratificado train/validation/test.
+Mini-benchmark semántico.
 
-Control de data leakage.
+PCA y similitud.
 
-Vocabulario construido sólo con train.
+Motor de búsqueda semántica.
 
-pack_padded_sequence.
+Propuesta Semantic_Vuln_Intelligence para EMCALI Cyber 2.0.
 
-PyTorch Lightning + early stopping + TensorBoard.
+Ejecución
 
-Accuracy, Precision, Recall, F1, ROC-AUC y PR-AUC.
+Abrir el .ipynb en Google Colab, seleccionar GPU T4 si está disponible y ejecutar las celdas en orden.
 
-Ajuste de threshold exclusivamente con validación.
+Seguridad
 
-Matrices de confusión.
-
-Análisis de errores.
-
-Visualización exploratoria de atención.
-
-Demo con mensajes nuevos.
-
-Exportación de métricas y configuración.
-
-#Ejecución
-
-Abrir MiniProyecto_NLP_SMS_Spam_LSTM_Colab.ipynb en Google Colab y seleccionar
-una GPU T4 cuando esté disponible. Ejecutar las celdas en orden.
-
-#Dataset
-
-SMS Spam Collection, disponible mediante Hugging Face Datasets como
-ucirvine/sms_spam.
-
-#Nota metodológica
-
-La etiqueta del corpus es spam/ham. El proyecto no interpreta automáticamente
-spam como malware o phishing.
+El laboratorio está orientado a análisis defensivo, búsqueda semántica, gestión y remediación de vulnerabilidades. No desarrolla exploits.
